@@ -1,0 +1,16 @@
+{
+  "4match.nl" : {
+    "url": "https://www.4match.nl/wachtwoord-vergeten",
+    "inputpath": "//input[@name=\"email\"]",
+    "buttonpath": "//button[@class='btn btn-success btn-block btn-lg icon-right']",
+    "errormessagepath": "//div[@class=\"bootbox-body\"]/div",
+    "successmessage": "Geen member gevonden met dit e-mailadres."
+  },
+ "suikermaatje.nl": {
+   "url": "https://www.suikermaatje.nl/mijn-account/lost-password/",
+   "inputpath": "//input[@name=\"user_login\"]",
+   "buttonpath": "//input[@type=\"submit\"]",
+   "errormessagepath": "//ul[@class=\"woocommerce-error\"]",
+   "successmessage": "Ongeldige gebruikersnaam of e-mailadres."
+ }
+}
